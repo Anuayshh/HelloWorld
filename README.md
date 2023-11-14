@@ -32,7 +32,7 @@ Display message give in MainActivity file.
 Save and run the application.
 
 ## PROGRAM:
-~~~
+```
 Program to print the text “Hello World”.
 Developed by: V R Anu Ayshwarya
 Registeration Number : 212221040016
@@ -122,7 +122,7 @@ tools:context=".MainActivity">
     app:layout_constraintVertical_bias="0.499" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-~~~
+```
 
 # OUTPUT:
 
