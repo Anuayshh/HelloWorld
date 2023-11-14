@@ -2,11 +2,14 @@
 
 ## DATE : 09/08/2023
 
+
 ## AIM:
 To create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio.
 
+
 ## EQUIPMENTS REQUIRED:
 Latest Version Android Studio
+
 
 ## ALGORITHM:
 
@@ -31,12 +34,15 @@ Display message give in MainActivity file.
 ### Step 7: 
 Save and run the application.
 
+
 ## PROGRAM:
 ```
 Program to print the text “Hello World”.
 Developed by: V R Anu Ayshwarya
 Registeration Number : 212221040016
 ```
+
+
 ## MainActivity.java:
 ```
   package com.example.helloworld;
@@ -103,8 +109,6 @@ protected void onRestart() {
 
 
 ## Activity_main.xml:
-
-
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout        xmlns:android="http://schemas.android.com/apk/res/android"
