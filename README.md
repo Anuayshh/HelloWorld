@@ -1,4 +1,7 @@
 # Ex.No:1 To create a HelloWorld Activity using all lifecycles methods to display messages.
+
+## DATE : 09/08/2023
+
 ## AIM:
 To create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio.
 
@@ -6,28 +9,36 @@ To create a HelloWorld Activity using all lifecycles methods to display messages
 Latest Version Android Studio
 
 ## ALGORITHM:
-Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as HelloWorld and click Next.
+### Step 1: 
+Open Android Stdio and then click on File -> New -> New project.
 
-Step 3: Then select the Minimum SDK as shown below and click Next.
+### Step 2:
+Then type the Application name as HelloWorld and click Next.
 
-Step 4: Then select the Empty Activity and click Next. Finally click Finish.
+### Step 3: 
+Then select the Minimum SDK as shown below and click Next.
 
-Step 5: Design layout in activity_main.xml.
+### Step 4: 
+Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 6: Display message give in MainActivity file.
+### Step 5: 
+Design layout in activity_main.xml.
 
-Step 7: Save and run the application.
+### Step 6:
+Display message give in MainActivity file.
+
+### Step 7: 
+Save and run the application.
 
 ## PROGRAM:
 ~~~
-/*
 Program to print the text “Hello World”.
 Developed by: V R Anu Ayshwarya
 Registeration Number : 212221040016
-*/
-MainActivity.java:
+
+
+## MainActivity.java:
   package com.example.helloworld;
   import androidx.appcompat.app.AppCompatActivity;
   import android.os.Bundle;
@@ -88,7 +99,7 @@ protected void onRestart() {
     Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show();
 }
 }
-Activity_main.xml:
+## Activity_main.xml:
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout        xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -112,7 +123,9 @@ tools:context=".MainActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ~~~
+
 # OUTPUT:
+
 ## onCreate()
 ![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/dcb585f7-e16b-4737-b84c-f0208d48192f)
 
@@ -131,6 +144,9 @@ tools:context=".MainActivity">
 
 ## onDestroy()
 ![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/6c25367c-2e96-4bdb-b181-17717ff7974d)
+
+![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/dcb585f7-e16b-4737-b84c-f0208d48192f)
+
 
 
 ## RESULT
