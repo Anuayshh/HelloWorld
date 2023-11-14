@@ -41,8 +41,6 @@ Program to print the text “Hello World”.
 Developed by: V R Anu Ayshwarya
 Registeration Number : 212221040016
 ```
-
-
 ## MainActivity.java:
 ```
   package com.example.helloworld;
@@ -106,8 +104,6 @@ protected void onRestart() {
 }
 }
 ```
-
-
 ## Activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -133,39 +129,17 @@ tools:context=".MainActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-
-
 # OUTPUT:
-
-
 ## onCreate()
 ![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/dcb585f7-e16b-4737-b84c-f0208d48192f)
-
-
-
 ## onRestart()
 ![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/93674089-17d2-4f5c-8303-85b62aebaac1)
-
-
-
 ## onPause()
 ![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/6630b25c-0b00-45b1-a291-8c165a330e3d)
-
-
-
 ## onResume()
 ![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/815b9669-9136-49de-8507-68f4bbce2392)
-
-
-
 ## onDestroy()
 ![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/6c25367c-2e96-4bdb-b181-17717ff7974d)
-
-
-
 ![image](https://github.com/Anuayshh/HelloWorld/assets/127651217/dcb585f7-e16b-4737-b84c-f0208d48192f)
-
-
-
 ## RESULT
 Thus a Simple Android Application create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio is developed and executed successfully.
