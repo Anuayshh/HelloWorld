@@ -36,9 +36,9 @@ Save and run the application.
 Program to print the text “Hello World”.
 Developed by: V R Anu Ayshwarya
 Registeration Number : 212221040016
-
-
+```
 ## MainActivity.java:
+```
   package com.example.helloworld;
   import androidx.appcompat.app.AppCompatActivity;
   import android.os.Bundle;
@@ -99,7 +99,9 @@ protected void onRestart() {
     Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show();
 }
 }
+```
 ## Activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout        xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
