@@ -37,10 +37,7 @@ Program to print the text “Hello World”.
 Developed by: V R Anu Ayshwarya
 Registeration Number : 212221040016
 ```
-
-
 ## MainActivity.java:
-
 ```
   package com.example.helloworld;
   import androidx.appcompat.app.AppCompatActivity;
